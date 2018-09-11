@@ -1,4 +1,5 @@
 # headFirst
 headFirstCodeByMyself
 
-# use to sync headFirst code between company and home
+# byMyself
+use to sync headFirst code between company and home
