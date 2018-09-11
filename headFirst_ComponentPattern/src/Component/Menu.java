@@ -1,6 +1,7 @@
 package Component;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Menu extends MenuComponent {
 	
@@ -34,4 +35,9 @@ public class Menu extends MenuComponent {
 		return this.MenuChildren.add(child);
 	}
 	
+	@Override
+	public Iterator<MenuComponent> getIterator() {
+		// TODO Auto-generated method stub
+		return super.getIterator();
+	}
 }
