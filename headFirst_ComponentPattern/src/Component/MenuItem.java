@@ -1,5 +1,7 @@
 package Component;
 
+import java.util.Iterator;
+
 public class MenuItem extends MenuComponent {
 	private String name;
 	private String description;
@@ -18,6 +20,12 @@ public class MenuItem extends MenuComponent {
 	public void print() {
 		// TODO Auto-generated method stub
 		System.out.println(name+":\t"+description+","+vegetarian+","+price);
+	}
+	
+	@Override
+	public Iterator<MenuComponent> getIterator() {
+		// TODO 自动生成的方法存根
+		
 	}
 	
 }
