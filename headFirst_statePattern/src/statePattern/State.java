@@ -2,36 +2,37 @@ package statePattern;
 
 public abstract class State {
 	
-	public State(StateMachine stateMachine) {
-		
-	}
+	protected StateMachine stateMachine;
 	
+	public State(StateMachine stateMachine) {
+		this.stateMachine = stateMachine;
+	}
 	/**
 	 * 放硬币
 	 */
 	public void insertQuarter() {
-		throw new UnsupportedOperationException();
+		System.out.println("不支持的操作");
 	}
 	
 	/**
 	 * 退硬币
 	 */
 	public void ejectQuarter() {
-		throw new UnsupportedOperationException();
+		System.out.println("不支持的操作");
 	}
 
 	/**
 	 * 转动曲柄
 	 */
 	public void turnCrank() {
-		throw new UnsupportedOperationException();
+		System.out.println("不支持的操作");
 	}
 	
 	/**
 	 * 发糖
 	 */
 	public void dispense() {
-		throw new UnsupportedOperationException();
+		System.out.println("不支持的操作");
 	}
 	
 }

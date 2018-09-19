@@ -7,5 +7,12 @@ public class NoQuarterState extends State {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public void insertQuarter() {
+		// TODO Auto-generated method stub
+		System.out.println("投入25分硬币");
+		stateMachine.changeState(stateMachine.getHasQuarterState());
+	}
 
+	
 }
